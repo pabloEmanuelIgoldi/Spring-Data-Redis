@@ -2,17 +2,16 @@
 
 # Índice
 ### Definición del proyecto
-### Objetivo
 ### Arquitectura del Proyecto
 ### Tecnologías y Dependencias
 ### Spring Cache
 ### Redis
-### Patrón Cache-Aside
 ### Ejecución del Proyecto
+### Documentacion oficial
 ### Índice de proyectos Spring
 
 
-## Definición del proyecto
+# Definición del proyecto
 
 Este proyecto demuestra cómo integrar **Spring Boot** con **Redis** como servidor de base de datos en memoria (caché) para optimizar el rendimiento de una aplicación 
 mediante el patrón **Cache-Aside**.
@@ -21,7 +20,7 @@ mediante el patrón **Cache-Aside**.
 
 Implementar una capa de caché utilizando Redis para reducir la latencia en las operaciones de acceso a datos, evitando consultas repetitivas al motor de base de datos relacional y mejorando el rendimiento general del sistema.
 
-## Arquitectura del Proyecto
+# Arquitectura del Proyecto
 
 El proyecto está dividido en las siguientes capas:
 
@@ -36,7 +35,7 @@ El proyecto está dividido en las siguientes capas:
 
 ---
 
-## Tecnologías y Dependencias
+# Tecnologías y Dependencias
 
 La aplicación está construida con:
 
@@ -60,7 +59,7 @@ La aplicación está construida con:
 
 ---
 
-##  Spring Cache
+#  Spring Cache
 
 Spring Cache provee una capa de abstracción sobre múltiples motores de caché como Redis, EhCache, Caffeine, entre otros.
 
@@ -77,7 +76,7 @@ Spring Cache provee una capa de abstracción sobre múltiples motores de caché 
 
 ---
 
-##  Redis (Remote Dictionary Server)
+#  Redis (Remote Dictionary Server)
 
 **Redis** es una base de datos NoSQL basada en memoria RAM, capaz de entregar respuestas a altísima velocidad, ideal para implementar sistemas de caché en tiempo real.
 
@@ -106,7 +105,7 @@ Este proyecto implementa el patrón **Cache-Aside**, uno de los más utilizados 
 - La primera petición siempre accede a la base de datos (latencia inicial).
 
 ---
-## Ejecución del Proyecto
+# Ejecución del Proyecto
 
 ### Requisitos:
 
@@ -204,6 +203,18 @@ http://localhost:8080/api-redis/swagger-ui/index.html
 
 http://localhost:8080/api-redis-docs
 
+
+---
+#  **Documentacion oficial**
+
+  https://spring.io/projects/spring-data-redis
+  
+  https://spring.io/guides/gs/spring-data-reactive-redis
+  
+  https://redis.io/solutions/caching/
+  
+  https://redis.io/docs/latest/
+  
 ---
 #  **Índice de proyectos Spring**
 ##  **Proyectos Spring Boot**
