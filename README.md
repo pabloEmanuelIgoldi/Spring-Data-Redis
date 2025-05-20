@@ -72,7 +72,7 @@ Spring Cache provee una capa de abstracción sobre múltiples motores de caché 
 - `@Caching`: Agrupa múltiples operaciones de caché.
 - `@CacheConfig`: Define configuración común para métodos de caché.
 - `RedisTemplate`: Proporciona operaciones de bajo nivel con Redis.
-- **Repositorios Redis**: Alternativa al estilo JPA para Redis.
+- `Repositorios Redis`: Alternativa al estilo JPA para Redis.
 
 ---
 
